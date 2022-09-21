@@ -3,8 +3,8 @@
   <ModulePrefs title="Recent Books"
     description="Add recentbooks in Mail"
     height="20"
-    author="Utsob Roy"
-    author_email="uroybd@gmail.com"
+    author="Muhammad Yahya"
+    author_email="contact@gmail.com"
     author_location="Dhaka, Bangladesh">
 
     <!-- Declare feature dependencies. -->
@@ -43,7 +43,7 @@
         <!-- Fetch the array of content matches. -->
         matches = google.contentmatch.getContentMatches();
 	var sender = matches[0]["sender_email"];
-        var m = /^.*\b(uroybd.github.io)\b.*$/.test(sender);
+        var m = /^.*\b(useryahya.github.io)\b.*$/.test(sender);
 	if (m) {
 	
 }
