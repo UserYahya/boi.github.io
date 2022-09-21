@@ -15,7 +15,7 @@ layout: default
   <ul class="collapsibleList">{% for type in types %}{% capture type_name %}{{ type | first }}{% endcapture %}<li class="collps"><i class="material-icons">view_quilt</i>{{ type_name }}<ul class="hidable">{% for post in s_post %}{% if post.tags contains page.title %}{% if post.categories contains type_name %}<li><i class="material-icons">book</i><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endif %}{% endfor %}</ul></li>{% endfor %}</ul>
   </div>
 </div>
-<script type="text/javascript" src="https://eboipotro.github.io/js/CollapsibleLists.js"></script>
+<script type="text/javascript" src="https://bnepub.github.io/js/CollapsibleLists.js"></script>
 <script>CollapsibleLists.apply();</script>
 <script>
 $('ul').each(function(){
