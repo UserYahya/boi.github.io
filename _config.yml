@@ -1,10 +1,10 @@
 excerpt_separator: ""
 highlighter: rouge
 markdown: kramdown
-url: https://eboipotro.github.io
-title: ই-বইপত্র
-tagline: "বাঙলা ইপাব লাইব্রেরী"
-description: "বাঙলা ইপাব লাইব্রেরী"
+url: https://bnepub.github.io
+title: ইপাব সমগ্র
+tagline: "বাঙলা ইপাব লাইব্রেরি"
+description: "বাঙলা ইপাব লাইব্রেরি"
 paginate: 48
 include: ['_authors']
 permalink: /library/:title/
